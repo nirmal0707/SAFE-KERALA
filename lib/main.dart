@@ -76,7 +76,8 @@ class _MyAppState extends State<MyApp> {
       title: 'Safe Kerala',
       theme: ThemeData(
         primarySwatch: Colors.teal,
-        canvasColor: Colors.white,
+        canvasColor: Colors.grey[50],
+        primaryColor: Colors.teal
       ),
       home: AppLoading(),
     );
